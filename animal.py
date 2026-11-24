@@ -6,10 +6,14 @@ def cat():
 def default():
 	print('hello');
 
+def dog():
+	print('woof');
 
 def main():
 	if sys.argv[1] == 'cat':
 		cat();
+	else if sys.argv[1] == 'dog':
+		dog();
 	else:
 		default();
 
